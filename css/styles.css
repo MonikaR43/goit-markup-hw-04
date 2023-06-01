@@ -100,7 +100,11 @@ a {
   color: #757575;
 }
 .kontakt-header:hover,
-.kontakt-header:focus {
+.kontakt-header:focus,
+.smartphone-icon:hover,
+.smartphone-icon:focus,
+.envelope-icon:hover,
+.envelope-icon:focus {
   color: #2196f3;
 }
 
@@ -108,8 +112,13 @@ a {
   background: #2f303a;
   padding: 200px 452px 200px 452px;
   text-align: center;
-  background-image: url("../images/header-index.jpg");
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/header-index.jpg");
 }
+
 .h1 {
   font-weight: 900;
   font-size: 44px;
@@ -265,12 +274,18 @@ a {
   gap: 30px;
   margin: 0;
 }
-
-.icon-antenna {
+.background-icons-index {
   background: #f5f4fa;
   border-radius: 4px;
-  display: block;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
+}
+.icon-antenna {
+  display: block;
+  margin: auto;
 }
 
 .images-profil {
@@ -345,4 +360,17 @@ a {
 .client-logo-index {
   border: 1px solid #afb1b8;
   border-radius: 4px;
+}
+.envelope-icon,
+.smartphone-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+.icons-team-index {
+  display: flex;
+  gap: 34px;
+  justify-content: center;
+  margin: 42px;
+}
+.icon-instagram {
 }
