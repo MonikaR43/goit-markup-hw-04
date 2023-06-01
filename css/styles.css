@@ -100,12 +100,9 @@ a {
   color: #757575;
 }
 .kontakt-header:hover,
-.kontakt-header:focus,
-.smartphone-icon:hover,
-.smartphone-icon:focus,
-.envelope-icon:hover,
-.envelope-icon:focus {
+.kontakt-header:focus {
   color: #2196f3;
+  stroke: #2196f3;
 }
 
 .background-index {
@@ -165,7 +162,8 @@ a {
   text-align: center;
   margin: 0 0 50px 0;
 }
-.descripition-index-team {
+.descripition-index-team,
+.description-customers-index {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -195,6 +193,7 @@ a {
 .icons-team-index {
   text-align: center;
 }
+
 .background-footer {
   background: #2f303a;
   padding-top: 60px;
@@ -361,16 +360,45 @@ a {
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
+.client-logo-index:hover {
+  border: 1px solid #2196f3;
+  cursor: pointer;
+  color: #2196f3;
+}
 .envelope-icon,
 .smartphone-icon {
   margin-right: 10px;
   fill: currentColor;
 }
+
 .icons-team-index {
   display: flex;
   gap: 34px;
   justify-content: center;
   margin: 42px;
 }
-.icon-instagram {
+
+.icon-instagram:hover {
+  stroke: #ffffff;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.icons-customers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+}
+
+.customers {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+.socjal-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
