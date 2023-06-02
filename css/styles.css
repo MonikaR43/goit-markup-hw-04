@@ -190,9 +190,6 @@ a {
   color: #757575;
   text-align: center;
 }
-.icons-team-index {
-  text-align: center;
-}
 
 .background-footer {
   background: #2f303a;
@@ -371,12 +368,6 @@ a {
   fill: currentColor;
 }
 
-.icons-team-index {
-  display: flex;
-  gap: 34px;
-  justify-content: center;
-  margin: 42px;
-}
 .icons-group-footer {
   display: flex;
   gap: 10px;
@@ -387,19 +378,48 @@ a {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: #afb1b8;
+  background-color: rgba(255, 255, 255, 0.1);
 }
-
+.icons-list-footer:hover {
+  background-color: #2196f3;
+}
 .icon-instagram-socjal,
-.icon-twitter-footer {
+.icon-twitter-footer,
+.icon-facebook-footer,
+.icon-linkedin-footer {
   fill: #ffffff;
   margin: 12px;
+  stroke: #ffffff;
 }
-.icon-instagram:hover {
+.icons-team-index {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 0;
+  margin-bottom: 30px;
+}
+.team-icons-four {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.icon-color {
+  fill: #afb1b8;
+  margin: 27.27%;
+}
+.team-icons-four:hover,
+.team-icons-four:focus {
   stroke: #ffffff;
   cursor: pointer;
   background-color: #2196f3;
+  fill: #ffffff;
+  stroke: #ffffff;
 }
+.team-icons-four:hover .icon-color {
+  fill: #ffffff;
+}
+
 .icons-customers {
   display: flex;
   align-items: center;
