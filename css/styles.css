@@ -195,7 +195,7 @@ a {
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 162px;
+  margin-left: 215px;
 }
 .logo-footer {
   font-family: "Raleway";
@@ -203,7 +203,6 @@ a {
   font-size: 26px;
   line-height: 1.19;
   padding-top: 60px;
-  padding-left: 15px;
 }
 .studio-footer {
   color: #ffffff;
@@ -213,7 +212,6 @@ a {
   font-size: 14px;
   line-height: 1.71;
   padding-top: 20px;
-  padding-left: 15px;
 }
 .adress-footer {
   color: #ffffff;
@@ -356,12 +354,17 @@ a {
 .client-logo-index {
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  padding: 15px 31px;
 }
 .client-logo-index:hover {
   border: 1px solid #2196f3;
   cursor: pointer;
   color: #2196f3;
 }
+.client-logo-index:hover .icons-logo {
+  fill: #2196f3;
+}
+
 .envelope-icon,
 .smartphone-icon {
   margin-right: 10px;
@@ -373,6 +376,7 @@ a {
   gap: 10px;
   justify-content: center;
   margin-top: 20px;
+  padding: 0;
 }
 .icons-list-footer {
   width: 44px;
@@ -437,4 +441,17 @@ a {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  padding-top: 72px;
+}
+.socjal {
+  height: 80px;
+  width: 206px;
+  margin-top: 12px;
+}
+.addres-social-footer {
+  display: flex;
+  gap: 72px;
+}
+.icons-logo {
+  fill: #afb1b8;
 }
