@@ -97,11 +97,18 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
   color: #757575;
 }
 .kontakt-header:hover,
 .kontakt-header:focus {
   color: #2196f3;
+}
+.kontakt-header:hover .envelope-icon,
+.kontakt-header:focus .envelope-icon,
+.kontakt-header:hover .smartphone-icon,
+.kontakt-header:focus .smartphone-icon {
+  fill: #2196f3;
   stroke: #2196f3;
 }
 
@@ -367,7 +374,8 @@ a {
 .envelope-icon,
 .smartphone-icon {
   margin-right: 10px;
-  fill: currentColor;
+  fill: #757575;
+  stroke: #757575;
 }
 
 .icons-group-footer {
